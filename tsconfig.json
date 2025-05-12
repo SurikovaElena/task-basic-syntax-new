@@ -1,6 +1,7 @@
 {
     "compilerOptions": {
         "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
         "skipLibCheck": true,
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
@@ -11,7 +12,8 @@
         "moduleResolution": "node",
         "resolveJsonModule": true,
         "isolatedModules": true,
-        "target": "ESNext"
+        "target": "ESNext",
+        "types": ["vite/client", "jest"]
     },
     "include": ["src"]
 }
