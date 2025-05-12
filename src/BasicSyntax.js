@@ -23,6 +23,6 @@ export function romanToInteger(str) {
             result += currentSymbol;
         }
     }
-    if (!result) { result = "Некорректно введено число в римской записи" };
+    if (! result) { result = "Некорректно введено число в римской записи" };
     return result;
 }
